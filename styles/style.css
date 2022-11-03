@@ -1,0 +1,225 @@
+/* sans-serif typeface */
+@font-face {
+    font-family: "roboto";
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+/* Display typeface */
+@font-face {
+    font-family: "bungeeShade";
+    src: url("../fonts/BungeeShade-Regular.ttf");
+}
+
+
+/* general styles */
+
+body {
+    font-family: roboto;
+    margin: 0;
+    padding-bottom: 50px;
+    color: #4d4d4d;
+    min-width: 450px;
+}
+
+a {
+    text-decoration: none;
+    color: #4d4d4d;
+}
+
+img:hover {
+    opacity: 0.75;
+}
+
+
+/* ---- navigation bar ---- */
+
+#nav-bar {
+    padding: 20px;
+    text-align: center;
+}
+
+#nav-bar ul {
+    padding: 10px;
+}
+
+#nav-bar ul, #nav-bar li {
+    display: inline;
+    margin: 0px 25px 0px 25px;
+}
+
+#nav-bar li {
+    padding-bottom: 10px;
+}
+
+#nav-bar li:hover {
+    border-bottom: 3px solid black;
+}
+
+
+/* ---- banner image section ---- */
+
+.banner-image {
+    width: 100%;
+}
+
+
+/* ---- image layout section ---- */
+
+#layout table {
+    width: 100%;
+}
+
+#layout img {
+    width: 100%;
+}
+
+
+/* ---- Deals section ---- */
+
+#deals {
+    text-align: center;
+    padding: 20px 100px 20px 100px; 
+}
+
+#deals h1 {
+    font-family: bungeeShade;
+    font-weight: normal;
+    font-size: 48px;
+}
+
+#deals h1:first-letter {
+    font-size: 60px;
+}
+
+#deals table {
+    width: 100%;
+}
+
+#deals td {
+    width: 14%;
+}
+
+#deals td.content {
+    padding-bottom: 5px;
+    border-bottom: 3px solid white;
+    
+}
+
+#deals td.content:hover {
+    border-bottom: 3px solid black;
+}
+
+
+/* ---- zenfone section ---- */
+
+#zenfone {
+    background-color: #F5F5F5;
+    padding: 50px;
+}
+
+#zenfone-container {
+    width: 25%;
+    margin: 0px auto 0px auto;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+#zenfone .price h1 {
+    border: 2px solid #e5e3e3;
+    border-width: 2px 0px 2px 0px;
+    padding: 15px 0px 15px 0px;
+}
+
+#zenfone ul {
+    text-align: left;
+    width: 50%;
+    margin: 16px auto 16px auto;
+}
+
+#zenfone li {
+    margin: 20px 0px 20px 0px;
+}
+
+#zenfone button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+#zenfone .buy {
+    background-color: #006CE1;
+    border: 3px solid #006CE1;
+}
+
+#zenfone .buy:hover, #top:hover {
+    background-color: #2565aa;
+    border-color: #2565aa;
+}
+
+#zenfone .learn-more {
+    border: 3px solid #006CE1;
+    color: #006CE1;	   
+}
+
+#zenfone .learn-more:hover {
+    background-color: #006CE1;
+    color: #FFFFFF;
+}
+
+
+/* ---- layout section 2 ---- */
+
+#layout2 table {
+    width: 100%;
+}
+
+#layout2 tr {
+    background-color: black;
+}
+
+#layout2 td {
+    padding: 0px 20px 0px 20px;
+    border-radius: 3px;
+}
+
+#layout2 td:hover {
+    opacity: 0.7;
+}
+
+
+#layout2 img {
+    width: 100%;
+}
+
+
+/* ---- social media links section ---- */
+
+#social {
+    padding: 50px;
+    text-align: center;
+}
+
+#social img {
+    margin: 0px 10px 0px 10px;
+}
+
+
+/* ---- top button ---- */
+
+#top {
+    width: 20%;
+    margin: 0px auto 0px auto;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #006CE1;
+    color: #FFFFFF;
+    font-weight: bold;
+}
